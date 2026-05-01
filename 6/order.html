@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Catering Services | Order Form</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.ico">
+    <meta name="description" content="Get in touch with Krishna Catering for your next big event.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="page-transition">
+    <!-- Navbar -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span>Krishna Catering</span>
+            </a>
+            <nav class="navbar" id="navbar">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <a href="order.html" class="btn btn-primary">Order Now</a>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header" style="height: 40vh; min-height: 350px;">
+            <div class="page-header-bg">
+                <img src="assets/hero_banner.png" alt="Contact Header" style="object-position: center 30%;">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="page-header-content">
+                <h1>Place Your Order</h1>
+                <p>Select your menu and customize your catering experience.</p>
+            </div>
+        </section>
+
+
+        <section class="order-section section" id="order">
+            <div class="container">
+                <div class="section-title center">
+                    <span class="subtitle">Book Your Event</span>
+                    <h2>Customize Your Menu</h2>
+                    <p>Fill out the form below with your event details and select the items you'd like on your menu.</p>
+                </div>
+
+                <div class="order-form-container">
+                    <form class="order-form" id="orderForm">
+
+                        <div class="form-section-title">
+                            <h3>1. Event Details</h3>
+                        </div>
+                        <div class="form-grid-wide">
+                            <div class="form-group">
+                                <label>Full Name *</label>
+                                <input type="text" id="orderName" placeholder="Your Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number *</label>
+                                <input type="tel" id="orderPhone" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" id="orderEmail" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
+                                <label>Event Date *</label>
+                                <input type="date" id="orderDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Est. Guest Count *</label>
+                                <input type="number" id="orderGuests" placeholder="Est. Guest Count" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Event Type *</label>
+                                <select id="orderEventType" required>
+                                    <option value="" disabled selected>Select Event Type</option>
+                                    <option value="wedding">Wedding</option>
+                                    <option value="corporate">Corporate Event</option>
+                                    <option value="party">Private Party</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-section-title" style="margin-top: 3rem;">
+                            <h3>2. Select Menu Items</h3>
+                            <p class="text-muted" style="margin-bottom: 1.5rem;">Choose the items you want to include in
+                                your catering package.</p>
+                        </div>
+
+                        <div class="menu-selection-container">
+                            <details class="menu-category" open>
+                                <summary>
+                                    <h4>Salads & Raitas</h4>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </summary>
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Green Salad">
+                                        <span>Green Salad</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Russian Salad">
+                                        <span>Russian Salad</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Cream Fruit Salad">
+                                        <span>Cream Fruit Salad</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Corn Pineapple Salad">
+                                        <span>Corn Pineapple Salad</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Corn Tomato Salad">
+                                        <span>Corn Tomato Salad</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mag Moath Salad">
+                                        <span>Mag Moath Salad</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Bengali Cucumber">
+                                        <span>Bengali Cucumber</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Stuffed Marcha">
+                                        <span>Stuffed Marcha</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Tikora Sambhar">
+                                        <span>Tikora Sambhar</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Keri Nu Athanu">
+                                        <span>Keri Nu Athanu</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mint Chutney">
+                                        <span>Mint Chutney</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Coconut Chutney">
+                                        <span>Coconut Chutney</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Date Chutney">
+                                        <span>Date Chutney</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Green Chutney">
+                                        <span>Green Chutney</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Sauce">
+                                        <span>Sauce</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Pineapple Raita">
+                                        <span>Pineapple Raita</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Banana Raita">
+                                        <span>Banana Raita</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Cucumber Raita">
+                                        <span>Cucumber Raita</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Boondi Raita">
+                                        <span>Boondi Raita</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Fruit Raita">
+                                        <span>Fruit Raita</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Raita">
+                                        <span>Veg Raita</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dahi Boondi Raita">
+                                        <span>Dahi Boondi Raita</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details class="menu-category">
+                                <summary>
+                                    <h4>Farsan & Starters</h4>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </summary>
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Pakoda">
+                                        <span>Paneer Pakoda</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Magdal Bhajiya">
+                                        <span>Magdal Bhajiya</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Methi Na Gota">
+                                        <span>Methi Na Gota</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dudhi Na Gota">
+                                        <span>Dudhi Na Gota</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Dughra">
+                                        <span>Veg Dughra</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Tuver Dughra">
+                                        <span>Tuver Dughra</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Punjabi Samosa">
+                                        <span>Punjabi Samosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Hari Bhari Tikki">
+                                        <span>Hari Bhari Tikki</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Cutlets">
+                                        <span>Veg Cutlets</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Patties">
+                                        <span>Veg Patties</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Sprout Patties">
+                                        <span>Sprout Patties</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kopra Patties">
+                                        <span>Kopra Patties</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mag Dal Kachori">
+                                        <span>Mag Dal Kachori</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Marcha Vada">
+                                        <span>Marcha Vada</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Makai Marvel">
+                                        <span>Makai Marvel</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Patra">
+                                        <span>Patra</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Khaman">
+                                        <span>Khaman</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Idada">
+                                        <span>Idada</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Tirangi Idada">
+                                        <span>Tirangi Idada</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kela Methi Bhajiya">
+                                        <span>Kela Methi Bhajiya</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Batata Vada">
+                                        <span>Batata Vada</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chinese Samosa">
+                                        <span>Chinese Samosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Spring Roll">
+                                        <span>Spring Roll</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Vati Dal Na Patra">
+                                        <span>Vati Dal Na Patra</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Cheese Palak Puff">
+                                        <span>Cheese Palak Puff</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Vasta Dhokla">
+                                        <span>Vasta Dhokla</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details class="menu-category">
+                                <summary>
+                                    <h4>Soups</h4>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </summary>
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Manchow Soup">
+                                        <span>Manchow Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Hot N Sour Soup">
+                                        <span>Hot N Sour Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Tomato Soup">
+                                        <span>Tomato Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Sweet Corn Soup">
+                                        <span>Sweet Corn Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Minestrone Soup">
+                                        <span>Minestrone Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Cream of Mushroom">
+                                        <span>Cream of Mushroom</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Coconut Milk Soup">
+                                        <span>Veg Coconut Milk Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Almond Coriander Soup">
+                                        <span>Almond Coriander Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Palak Soup">
+                                        <span>Palak Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Green Peas Soup">
+                                        <span>Green Peas Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Fresh Onion Soup">
+                                        <span>Fresh Onion Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Lemon Coconut Soup">
+                                        <span>Lemon Coconut Soup</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details class="menu-category">
+                                <summary>
+                                    <h4>Chaat & Street Food</h4>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </summary>
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Pani Puri">
+                                        <span>Pani Puri</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dahi Puri">
+                                        <span>Dahi Puri</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dahi Batata Puri">
+                                        <span>Dahi Batata Puri</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chaat Puri">
+                                        <span>Chaat Puri</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Bhel Puri">
+                                        <span>Bhel Puri</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Makai Bhel">
+                                        <span>Makai Bhel</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dahi Bhel">
+                                        <span>Dahi Bhel</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Bombay Bhel">
+                                        <span>Bombay Bhel</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Papdi Chaat">
+                                        <span>Papdi Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dilli Chaat">
+                                        <span>Dilli Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Marwadi Chaat">
+                                        <span>Marwadi Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kurkure Chaat">
+                                        <span>Kurkure Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Basket Chaat">
+                                        <span>Basket Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Aalu Tikki Chaat">
+                                        <span>Aalu Tikki Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Corn Tikki Chaat">
+                                        <span>Corn Tikki Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Golgappa Chaat">
+                                        <span>Golgappa Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Biscuit Chaat">
+                                        <span>Biscuit Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Palak Corn Chaat">
+                                        <span>Palak Corn Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Puri Chaat">
+                                        <span>Puri Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chana Chaat">
+                                        <span>Chana Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Italian Chaat">
+                                        <span>Italian Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Ragda Patties">
+                                        <span>Ragda Patties</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chaat Samosa">
+                                        <span>Chaat Samosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Idli Chaat">
+                                        <span>Idli Chaat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Tikka Fry">
+                                        <span>Paneer Tikka Fry</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Taka Tak">
+                                        <span>Paneer Taka Tak</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Pasta Kachori">
+                                        <span>Pasta Kachori</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dahi Bhajiya">
+                                        <span>Dahi Bhajiya</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dahi Vada">
+                                        <span>Dahi Vada</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dahi Bhalla">
+                                        <span>Dahi Bhalla</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Sabudana Vada">
+                                        <span>Sabudana Vada</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details class="menu-category">
+                                <summary>
+                                    <h4>South Indian</h4>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </summary>
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Masala Dosa">
+                                        <span>Masala Dosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Sada Dosa">
+                                        <span>Sada Dosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mysore Dosa">
+                                        <span>Mysore Dosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Spring Dosa">
+                                        <span>Spring Dosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chinese Dosa">
+                                        <span>Chinese Dosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Palak Dosa">
+                                        <span>Palak Dosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Palak Paneer Dosa">
+                                        <span>Palak Paneer Dosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Cheese Dosa">
+                                        <span>Cheese Dosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Rava Dosa">
+                                        <span>Rava Dosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Jodhpuri Dosa">
+                                        <span>Jodhpuri Dosa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Cheese Uttapa">
+                                        <span>Cheese Uttapa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Tomato Uttapa">
+                                        <span>Tomato Uttapa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Idli Fry">
+                                        <span>Idli Fry</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dhangli">
+                                        <span>Dhangli</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dhan Ni Dhangal">
+                                        <span>Dhan Ni Dhangal</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Medu Vada">
+                                        <span>Medu Vada</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dal Vada">
+                                        <span>Dal Vada</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dosa Vada Chutney">
+                                        <span>Dosa Vada Chutney</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Panki Dosa Chutney">
+                                        <span>Panki Dosa Chutney</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details class="menu-category">
+                                <summary>
+                                    <h4>Gujarati Sabji</h4>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </summary>
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Surti Undhiyu">
+                                        <span>Surti Undhiyu</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Jain Undhiyu">
+                                        <span>Jain Undhiyu</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dana Undhiyu">
+                                        <span>Dana Undhiyu</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Green Gujarat">
+                                        <span>Green Gujarat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Panchkutir Shaak">
+                                        <span>Panchkutir Shaak</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Batata Rassawala">
+                                        <span>Batata Rassawala</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Batata Sukhi Bhaji">
+                                        <span>Batata Sukhi Bhaji</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Batata Tomato Shaak">
+                                        <span>Batata Tomato Shaak</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kand Matar">
+                                        <span>Kand Matar</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Turiya Matar">
+                                        <span>Turiya Matar</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Turiya Patra">
+                                        <span>Turiya Patra</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Turiya Patra Draksh">
+                                        <span>Turiya Patra Draksh</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Cauliflower Matar Draksh">
+                                        <span>Cauliflower Matar Draksh</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Cauliflower Matar Kaju">
+                                        <span>Cauliflower Matar Kaju</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kismis">
+                                        <span>Kismis</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Lilva">
+                                        <span>Lilva</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Lilva Matar">
+                                        <span>Lilva Matar</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Ravaiya Papdi Tuver">
+                                        <span>Ravaiya Papdi Tuver</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Hara Bhara">
+                                        <span>Veg Hara Bhara</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Limda Matar Patra">
+                                        <span>Limda Matar Patra</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Limdi Masala">
+                                        <span>Limdi Masala</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Ringan Bharta">
+                                        <span>Ringan Bharta</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mix Vegetable">
+                                        <span>Mix Vegetable</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Vegetable Kofta">
+                                        <span>Vegetable Kofta</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kathal Kofta">
+                                        <span>Kathal Kofta</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kaju Karela">
+                                        <span>Kaju Karela</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Khata Mitha Karela">
+                                        <span>Khata Mitha Karela</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Stuffed Papad">
+                                        <span>Stuffed Papad</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Ringan Batata Vatana Nu Shaak">
+                                        <span>Ringan Batata Vatana Nu Shaak</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Jodhpuri Gatta">
+                                        <span>Jodhpuri Gatta</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Ravaiya Tuver">
+                                        <span>Ravaiya Tuver</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details class="menu-category">
+                                <summary>
+                                    <h4>Punjabi Sabji</h4>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </summary>
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Korma">
+                                        <span>Veg Korma</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Aamani Korma">
+                                        <span>Aamani Korma</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Shahi Korma">
+                                        <span>Shahi Korma</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Navratan Korma">
+                                        <span>Navratan Korma</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Italian Korma">
+                                        <span>Italian Korma</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mix Veg">
+                                        <span>Mix Veg</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Haryali">
+                                        <span>Veg Haryali</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Kolhapuri">
+                                        <span>Veg Kolhapuri</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dum Aalu">
+                                        <span>Dum Aalu</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dum Aalu Punjabi">
+                                        <span>Dum Aalu Punjabi</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Matar Dum Aalu">
+                                        <span>Matar Dum Aalu</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kashmiri Dum Aalu">
+                                        <span>Kashmiri Dum Aalu</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chhole">
+                                        <span>Chhole</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chhole Paneer">
+                                        <span>Chhole Paneer</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chhole Palak">
+                                        <span>Chhole Palak</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chhole Palak Paneer">
+                                        <span>Chhole Palak Paneer</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Aalu Matar">
+                                        <span>Aalu Matar</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Aalu Matar Paneer">
+                                        <span>Aalu Matar Paneer</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Khoya Matar Paneer">
+                                        <span>Khoya Matar Paneer</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Khoya Kaju">
+                                        <span>Khoya Kaju</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Kadai">
+                                        <span>Paneer Kadai</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Tikki Masala">
+                                        <span>Paneer Tikki Masala</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Makhmali">
+                                        <span>Paneer Makhmali</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Bhurji">
+                                        <span>Paneer Bhurji</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Korma">
+                                        <span>Paneer Korma</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Makhanwala">
+                                        <span>Paneer Makhanwala</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Palak Babycorn">
+                                        <span>Palak Babycorn</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Tawa Mushroom Sabji">
+                                        <span>Tawa Mushroom Sabji</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Kaju">
+                                        <span>Paneer Kaju</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Patiyala">
+                                        <span>Paneer Patiyala</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Mughlai">
+                                        <span>Paneer Mughlai</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Borsan">
+                                        <span>Paneer Borsan</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Kofta">
+                                        <span>Paneer Kofta</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Hari">
+                                        <span>Paneer Hari</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chik Paneer Khaman">
+                                        <span>Chik Paneer Khaman</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details class="menu-category">
+                                <summary>
+                                    <h4>Rice, Dal & Breads</h4>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </summary>
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Pulav">
+                                        <span>Veg Pulav</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Sprout Pulav">
+                                        <span>Sprout Pulav</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Green Pulav">
+                                        <span>Green Pulav</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Green Peas Pulav">
+                                        <span>Green Peas Pulav</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Matar Pulav">
+                                        <span>Paneer Matar Pulav</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kashmiri Pulav">
+                                        <span>Kashmiri Pulav</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Sadi Puri">
+                                        <span>Sadi Puri</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Masala Puri">
+                                        <span>Masala Puri</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Palak Puri">
+                                        <span>Palak Puri</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Sada Bhat">
+                                        <span>Sada Bhat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Jeera Rice">
+                                        <span>Jeera Rice</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Matar Bhat">
+                                        <span>Matar Bhat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Lemon Bhat">
+                                        <span>Lemon Bhat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dal Fry">
+                                        <span>Dal Fry</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Surti Dal">
+                                        <span>Surti Dal</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mag Dal">
+                                        <span>Mag Dal</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Adad Dal">
+                                        <span>Adad Dal</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chana Dal">
+                                        <span>Chana Dal</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Panchkutir Dal">
+                                        <span>Panchkutir Dal</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Vaghareli Dal">
+                                        <span>Vaghareli Dal</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dal Makhani">
+                                        <span>Dal Makhani</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Dal Tadka">
+                                        <span>Dal Tadka</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Tuver Dal Khichdi">
+                                        <span>Tuver Dal Khichdi</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mag Dal Khichdi">
+                                        <span>Mag Dal Khichdi</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Masala Khichdi">
+                                        <span>Masala Khichdi</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Ram Khichdi">
+                                        <span>Ram Khichdi</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Sadi Kadhi">
+                                        <span>Sadi Kadhi</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Kadhi">
+                                        <span>Veg Kadhi</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Marwadi Kadhi">
+                                        <span>Marwadi Kadhi</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Punjabi Kadhi">
+                                        <span>Veg Punjabi Kadhi</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details class="menu-category">
+                                <summary>
+                                    <h4>Chinese & Sizzlers</h4>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </summary>
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chinese Sizzler">
+                                        <span>Chinese Sizzler</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Sizzler">
+                                        <span>Paneer Sizzler</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Sizzler">
+                                        <span>Veg Sizzler</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mexican Sizzler">
+                                        <span>Mexican Sizzler</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Italian Sizzler">
+                                        <span>Italian Sizzler</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="American Chop Suey">
+                                        <span>American Chop Suey</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chinese Chop Suey">
+                                        <span>Chinese Chop Suey</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Chow Chow">
+                                        <span>Veg Chow Chow</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Hong Kong">
+                                        <span>Veg Hong Kong</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Manchurian">
+                                        <span>Veg Manchurian</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Fry Manchurian">
+                                        <span>Fry Manchurian</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items"
+                                            value="Veg Lollipop in Hunan Garlic Sauce">
+                                        <span>Veg Lollipop in Hunan Garlic Sauce</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Hakka Noodles">
+                                        <span>Hakka Noodles</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Chilli Fry">
+                                        <span>Paneer Chilli Fry</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Chilli Gravy">
+                                        <span>Paneer Chilli Gravy</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Szechwan Fry Rice">
+                                        <span>Szechwan Fry Rice</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Fry Rice">
+                                        <span>Veg Fry Rice</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Singapore Fry Rice">
+                                        <span>Veg Singapore Fry Rice</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Szechwan Hakka Noodles">
+                                        <span>Szechwan Hakka Noodles</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Spring Roll">
+                                        <span>Spring Roll</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details class="menu-category">
+                                <summary>
+                                    <h4>Pizza & Italian</h4>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </summary>
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Red Pasta">
+                                        <span>Red Pasta</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Cheese Pasta">
+                                        <span>Cheese Pasta</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Bruschetta">
+                                        <span>Bruschetta</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Basil Pasta">
+                                        <span>Basil Pasta</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Italian Pizza">
+                                        <span>Italian Pizza</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mexican Rice">
+                                        <span>Mexican Rice</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Thai Curry">
+                                        <span>Thai Curry</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Thai Corn Bowl">
+                                        <span>Thai Corn Bowl</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="American Bowl">
+                                        <span>American Bowl</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Khakhra">
+                                        <span>Paneer Khakhra</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Aloo Rosti">
+                                        <span>Aloo Rosti</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mexican Tikki">
+                                        <span>Mexican Tikki</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Paneer Mongolian">
+                                        <span>Paneer Mongolian</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Broccoli Almond Soup">
+                                        <span>Broccoli Almond Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Thai Corn Soup">
+                                        <span>Thai Corn Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Tomato Sushma">
+                                        <span>Tomato Sushma</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Italian Salad">
+                                        <span>Italian Salad</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mexican Salad">
+                                        <span>Mexican Salad</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Corn Kali Inter Soup">
+                                        <span>Corn Kali Inter Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Kali Soup">
+                                        <span>Veg Kali Soup</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mexican Bell">
+                                        <span>Mexican Bell</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Italian Bell">
+                                        <span>Italian Bell</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Italian Roll">
+                                        <span>Italian Roll</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Roasted">
+                                        <span>Veg Roasted</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Pizza">
+                                        <span>Veg Pizza</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mushroom Pizza">
+                                        <span>Mushroom Pizza</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Jain Pizza">
+                                        <span>Jain Pizza</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Pineapple Pizza">
+                                        <span>Pineapple Pizza</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Veg Sizzler Pizza">
+                                        <span>Veg Sizzler Pizza</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Onion Capsicum Pizza">
+                                        <span>Onion Capsicum Pizza</span>
+                                    </label>
+                                </div>
+                            </details>
+                            <details class="menu-category">
+                                <summary>
+                                    <h4>Beverages</h4>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </summary>
+                                <div class="checkbox-grid">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mint Mojito">
+                                        <span>Mint Mojito</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Blue Lagoon">
+                                        <span>Blue Lagoon</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Pina Colada">
+                                        <span>Pina Colada</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Strawberry">
+                                        <span>Strawberry</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kiwi Manna">
+                                        <span>Kiwi Manna</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items"
+                                            value="Kala Khatta Jodhpuri / Fruit Variety">
+                                        <span>Kala Khatta Jodhpuri / Fruit Variety</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Orange">
+                                        <span>Orange</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Ginger">
+                                        <span>Ginger</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Watermelon">
+                                        <span>Watermelon</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Red Guava">
+                                        <span>Red Guava</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Cranberry">
+                                        <span>Cranberry</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Green Cocktail Juice">
+                                        <span>Green Cocktail Juice</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Jamjura Thandai">
+                                        <span>Jamjura Thandai</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kesar Thandai">
+                                        <span>Kesar Thandai</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Ganga Jamuna Juice">
+                                        <span>Ganga Jamuna Juice</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Coconut Juice">
+                                        <span>Coconut Juice</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Orange Juice">
+                                        <span>Orange Juice</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Litchi Juice">
+                                        <span>Litchi Juice</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Litchi with Vanilla">
+                                        <span>Litchi with Vanilla</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Nariyal Pani">
+                                        <span>Nariyal Pani</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Coconut Punch">
+                                        <span>Coconut Punch</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kesar Milk Shake">
+                                        <span>Kesar Milk Shake</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Fruit Punch">
+                                        <span>Fruit Punch</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Faluda with Ice Cream">
+                                        <span>Faluda with Ice Cream</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Green Grapes Shake">
+                                        <span>Green Grapes Shake</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Pineapple Mosambi Litchi">
+                                        <span>Pineapple Mosambi Litchi</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Pineapple Explosion">
+                                        <span>Pineapple Explosion</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Sitafal Milk Shake">
+                                        <span>Sitafal Milk Shake</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Coldrinks">
+                                        <span>Coldrinks</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Haryali">
+                                        <span>Haryali</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Black Grapes">
+                                        <span>Black Grapes</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Jamrukh Pineapple Juice">
+                                        <span>Jamrukh Pineapple Juice</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Jamrukh Fresh">
+                                        <span>Jamrukh Fresh</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Lilu Sharbat">
+                                        <span>Lilu Sharbat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Rasna Sharbat">
+                                        <span>Rasna Sharbat</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Kalakhatta">
+                                        <span>Kalakhatta</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items"
+                                            value="Pineapple Tukmari Vanilla Cream">
+                                        <span>Pineapple Tukmari Vanilla Cream</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Gulastan">
+                                        <span>Gulastan</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Orange Float">
+                                        <span>Orange Float</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Oreo Shake">
+                                        <span>Oreo Shake</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Brownie Shake">
+                                        <span>Brownie Shake</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="KitKat Shake">
+                                        <span>KitKat Shake</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Orange Brownies">
+                                        <span>Orange Brownies</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Butter Scotch">
+                                        <span>Butter Scotch</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Strawberry Blossom">
+                                        <span>Strawberry Blossom</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Lal Wine">
+                                        <span>Lal Wine</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Red Coin">
+                                        <span>Red Coin</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Anjum">
+                                        <span>Anjum</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Uttam Combo">
+                                        <span>Uttam Combo</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Aa America Che">
+                                        <span>Aa America Che</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Green New Zealand">
+                                        <span>Green New Zealand</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Berry-Berry">
+                                        <span>Berry-Berry</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Pagano Mukko">
+                                        <span>Pagano Mukko</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Gone Nutty">
+                                        <span>Gone Nutty</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Tulsi Ghar">
+                                        <span>Tulsi Ghar</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Lal Pradip">
+                                        <span>Lal Pradip</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="K.V. Paanafun">
+                                        <span>K.V. Paanafun</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Black Goose Delight">
+                                        <span>Black Goose Delight</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Red Goa">
+                                        <span>Red Goa</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Fragn Lassi">
+                                        <span>Fragn Lassi</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Chandi No Punch">
+                                        <span>Chandi No Punch</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Ke Vo Men Tango">
+                                        <span>Ke Vo Men Tango</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Mara-Maro">
+                                        <span>Mara-Maro</span>
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="menu_items" value="Ganga Jamuna">
+                                        <span>Ganga Jamuna</span>
+                                    </label>
+                                </div>
+                            </details>
+
+                        </div>
+
+                        <div class="form-section-title" style="margin-top: 3rem;">
+                            <h3>3. Additional Requirements</h3>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="orderMessage" rows="4"
+                                placeholder="Briefly describe any special requirements, allergies, or specific instructions..."></textarea>
+                        </div>
+                        <div style="text-align: center; margin-top: 2rem;">
+                            <button type="submit" class="btn btn-primary btn-lg submit-btn"
+                                style="width: auto; padding: 1rem 3rem;">Submit Order Request <i
+                                    class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Our Menu</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-brand center-brand">
+                    <a href="index.html" class="logo">
+                        <img src="assets/logo.png" alt="Krishna Catering">
+                    </a>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="contact.html">Wedding Catering</a></li>
+                        <li><a href="contact.html">Corporate Events</a></li>
+                        <li><a href="contact.html">Private Parties</a></li>
+                        <li><a href="contact.html">Live Counters</a></li>
+                        <li><a href="menu.html">Menu Tasting</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Krishna Catering Services. All Rights Reserved.</p>
+                <p>Developed by <a href="https://infynoweb-solution.vercel.app/" target="_blank"
+                        style="color: #ffffff; text-decoration: none;">Infynoweb Solutions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

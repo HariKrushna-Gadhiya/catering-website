@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Catering Services | Home</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.ico">
+    <meta name="description"
+        content="Experience the finest catering services for weddings, corporate events, and parties. Premium quality and authentic taste.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="page-transition">
+    <!-- Navbar -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span>Krishna Catering</span>
+            </a>
+            <nav class="navbar" id="navbar">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <a href="order.html" class="btn btn-primary">Order Now</a>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content wrapper for fade animations -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-bg">
+                <img src="assets/hero_banner.png" alt="Elegant Indian Catering Setup">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <span class="badge">Authentic Taste, Premium Experience</span>
+                <h1 class="hero-title">Elevate Your Events with <span>Exquisite</span> Flavors</h1>
+                <p class="hero-subtitle">We bring the finest culinary experiences to your weddings, corporate events,
+                    and grand parties.</p>
+                <div class="hero-buttons">
+                    <a href="menu.html" class="btn btn-primary btn-lg">Explore Menu</a>
+                    <a href="contact.html" class="btn btn-secondary btn-lg">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-title center fade-in-scroll">
+                    <span class="subtitle">Our Story</span>
+                    <h2>A Legacy of Culinary Excellence</h2>
+                    <p>At Krishna Catering, we believe that food is the heart of every celebration. With years of
+                        experience in the culinary arts, our chefs craft dishes that not only tantalize your taste buds
+                        but also leave a lasting impression on your guests.</p>
+                </div>
+                <div class="about-grid-new">
+                    <div class="about-image-collage fade-in-scroll">
+                        <div class="collage-img img-1">
+                            <img src="assets/menu_samosa.png" alt="Delicious Food Preparation">
+                        </div>
+                        <div class="collage-img img-2">
+                            <div class="placeholder-img"
+                                style="background-color: var(--bg-light); width: 100%; height: 100%; border-radius: var(--radius-lg); display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--text-muted); border: 2px dashed #cbd5e1;">
+                                <i class="fa-solid fa-image fa-2x"
+                                    style="margin-bottom: 0.5rem; color: var(--primary-color);"></i>
+                                <span style="font-size: 0.9rem; font-weight: 500;">Kitchen View</span>
+                            </div>
+                        </div>
+                        <div class="experience-badge new-badge">
+                            <h3>15+</h3>
+                            <p>Years</p>
+                            <p>Experience</p>
+                        </div>
+                    </div>
+                    <div class="about-highlights fade-in-scroll delay-1">
+                        <div class="highlight-card">
+                            <div class="highlight-icon"><i class="fa-solid fa-fire-burner"></i></div>
+                            <div class="highlight-info">
+                                <h3>Freshly Prepared Meals</h3>
+                                <p>Cooked live or just before your event for maximum freshness and flavor.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon"><i class="fa-solid fa-seedling"></i></div>
+                            <div class="highlight-info">
+                                <h3>Premium Ingredients</h3>
+                                <p>Sourced from the best local suppliers to guarantee an authentic taste.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon"><i class="fa-solid fa-utensils"></i></div>
+                            <div class="highlight-info">
+                                <h3>Memorable Taste</h3>
+                                <p>Our secret traditional recipes make every bite a delightful celebration.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section bg-light" id="services">
+            <div class="container">
+                <div class="section-title center fade-in-scroll">
+                    <span class="subtitle">What We Do</span>
+                    <h2>Our Premium Services</h2>
+                    <p>We cater to a wide range of events, bringing our culinary expertise to your special occasions.
+                    </p>
+                </div>
+                <div class="services-grid"
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                    <div class="service-card fade-in-scroll delay-1"
+                        style="background: var(--bg-dark); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: var(--radius-lg); padding: 2.5rem 2rem; text-align: center; transition: all 0.3s ease;">
+                        <i class="fa-solid fa-ring fa-3x"
+                            style="color: var(--primary-color); margin-bottom: 1.5rem;"></i>
+                        <h3 style="margin-bottom: 1rem;">Wedding Catering</h3>
+                        <p style="color: var(--text-muted);">Make your special day unforgettable with our grand wedding
+                            feasts and elegant presentations.</p>
+                    </div>
+                    <div class="service-card fade-in-scroll delay-2"
+                        style="background: var(--bg-dark); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: var(--radius-lg); padding: 2.5rem 2rem; text-align: center; transition: all 0.3s ease;">
+                        <i class="fa-solid fa-briefcase fa-3x"
+                            style="color: var(--primary-color); margin-bottom: 1.5rem;"></i>
+                        <h3 style="margin-bottom: 1rem;">Corporate Events</h3>
+                        <p style="color: var(--text-muted);">Impress your clients and colleagues with our professional
+                            corporate catering services.</p>
+                    </div>
+                    <div class="service-card fade-in-scroll delay-3"
+                        style="background: var(--bg-dark); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: var(--radius-lg); padding: 2.5rem 2rem; text-align: center; transition: all 0.3s ease;">
+                        <i class="fa-solid fa-glass-cheers fa-3x"
+                            style="color: var(--primary-color); margin-bottom: 1.5rem;"></i>
+                        <h3 style="margin-bottom: 1rem;">Private Parties</h3>
+                        <p style="color: var(--text-muted);">From birthdays to anniversaries, we provide delicious food
+                            for all your personal celebrations.</p>
+                    </div>
+                    <div class="service-card fade-in-scroll delay-4"
+                        style="background: var(--bg-dark); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: var(--radius-lg); padding: 2.5rem 2rem; text-align: center; transition: all 0.3s ease;">
+                        <i class="fa-solid fa-fire-burner fa-3x"
+                            style="color: var(--primary-color); margin-bottom: 1.5rem;"></i>
+                        <h3 style="margin-bottom: 1rem;">Live Counters</h3>
+                        <p style="color: var(--text-muted);">Interactive live cooking stations serving hot, fresh street
+                            food and global delicacies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Menu Items -->
+        <section class="featured-menu section" id="featured-menu">
+            <div class="container">
+                <div class="section-title center fade-in-scroll">
+                    <span class="subtitle">Taste The Best</span>
+                    <h2>Featured Delicacies</h2>
+                    <p>A glimpse into our wide variety of authentic Indian catering menu items.</p>
+                </div>
+                <div class="menu-grid"
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                    <div class="menu-card fade-in-scroll"
+                        style="background: rgba(255, 255, 255, 0.02); border-radius: 12px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.05);">
+                        <div class="menu-img" style="position: relative; height: 220px; overflow: hidden;">
+                            <img src="https://image.pollinations.ai/prompt/Punjabi%20Samosa%20delicious%20indian%20catering%20food?width=400&height=300&nologo=true"
+                                alt="Punjabi Samosa" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="menu-info" style="padding: 1.5rem; text-align: center;">
+                            <h3>Punjabi Samosa</h3>
+                        </div>
+                    </div>
+                    <div class="menu-card fade-in-scroll delay-1"
+                        style="background: rgba(255, 255, 255, 0.02); border-radius: 12px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.05);">
+                        <div class="menu-img" style="position: relative; height: 220px; overflow: hidden;">
+                            <img src="https://image.pollinations.ai/prompt/Paneer%20Tikka%20Masala%20delicious%20indian%20catering%20food?width=400&height=300&nologo=true"
+                                alt="Paneer Tikka Masala" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="menu-info" style="padding: 1.5rem; text-align: center;">
+                            <h3>Paneer Tikka Masala</h3>
+                        </div>
+                    </div>
+                    <div class="menu-card fade-in-scroll delay-2"
+                        style="background: rgba(255, 255, 255, 0.02); border-radius: 12px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.05);">
+                        <div class="menu-img" style="position: relative; height: 220px; overflow: hidden;">
+                            <img src="https://image.pollinations.ai/prompt/Masala%20Dosa%20delicious%20indian%20catering%20food?width=400&height=300&nologo=true"
+                                alt="Masala Dosa" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                        <div class="menu-info" style="padding: 1.5rem; text-align: center;">
+                            <h3>Masala Dosa</h3>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="menu.html" class="btn btn-primary">View Full Menu <i class="fa-solid fa-arrow-right"
+                            style="margin-left: 0.5rem;"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section"
+            style="text-align: center; background: linear-gradient(rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.9)), url('assets/hero_banner.png') center/cover; padding: 6rem 0;">
+            <div class="container fade-in-scroll">
+                <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;color: #ff6c00;">Ready to Plan Your Next Event?</h2>
+                <p style="color: var(--text-light); font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem;">Contact
+                    us today to discuss your catering needs and get a customized quote for your celebration.</p>
+                <div class="cta-buttons" style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="order.html" class="btn btn-primary btn-lg">Order Now</a>
+                    <a href="contact.html" class="btn btn-secondary btn-lg">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Our Menu</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-brand center-brand">
+                    <a href="index.html" class="logo">
+                        <img src="assets/logo.png" alt="Krishna Catering">
+                    </a>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="contact.html">Wedding Catering</a></li>
+                        <li><a href="contact.html">Corporate Events</a></li>
+                        <li><a href="contact.html">Private Parties</a></li>
+                        <li><a href="contact.html">Live Counters</a></li>
+                        <li><a href="menu.html">Menu Tasting</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Krishna Catering Services. All Rights Reserved.</p>
+                <p>Developed by <a href="https://infynoweb-solution.vercel.app/" target="_blank"
+                        style="color: #ffffff; text-decoration: none;">Infynoweb Solutions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

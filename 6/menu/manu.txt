@@ -1,0 +1,484 @@
+### Juice 
+* Green Cocktail Juice
+* Jaljeera
+* Thandai
+* Kesar Thandai
+* Ganga Jamuna Juice
+* Coconut Juice
+* Orange Juice
+* Litchi Juice
+* Litchi with Vanilla
+* Coconut Water
+* Coconut Punch
+* Kesar Milk Shake
+* Pina Colada
+* Fruit Punch
+* Falooda with Ice Cream
+* Green Grapes Drink
+* Pineapple Mosambi
+* Litchi Pineapple Squash
+* Sitafal Milk Shake
+* Cold Drinks
+* Hariyali
+* Black Grapes
+* Guava Pineapple Juice
+* Guava Fresh
+* Lemon Sherbet
+* Rasna Sherbet
+* Kala Khatta
+* Pineapple Tukmari Vanilla Cream
+
+### Milkshake
+* Gulstan
+* Orange Blossom
+* Oreo Shake
+* Brownie Shake
+* KitKat Shake
+* Orange Brownies
+* Butter Scotch
+* Strawberry Blossom
+* Pina Colada
+
+### Fresh Juice / Special Mixes
+* Red Wine (Non-alcoholic)
+* Red Queen
+* Anjum
+* Uttam Combo
+* This is America
+* Green New Zealand
+* Berry-Berry
+* Fruit Punch (Pagno Mukko)
+* Gon Nadi
+* Tulsi Dhar
+* Red Fury (lal prakop)
+* Kiwi Panafad
+* Black Grapes Delight
+* Red Guava
+* Dragon Litchi
+* Silver Punch (chandi Punch)
+* K Vo Men Tango
+* Mara-Maro
+* Ganga Jamuna
+
+### Mocktail
+* Mint Mojito
+* Blue Lagoon
+* Pina Colada
+* Strawberry
+* Kiwi Manna
+* Banana Variety (Kela ni vivedhta)
+* Orange (naringi)
+* Peach (aadu)
+* Watermelon (tarbuj)
+* Red Guava (lal jamphad)
+* Cranberry (krenberry)
+
+### Salad
+* Green Salad
+* Russian Salad
+* Cream Fruit Salad
+* Cabbage Pineapple Salad
+* Cabbage Tomato Salad
+* Mang Math Salad
+* Bengali Kachumber
+* Stuffed Chilli (Bharela Marcha)
+* Tindora Sambhar
+* Mango Pickle (Keri nu Athanu)
+
+### Chutney
+* Mint Chutney
+* Coconut (Kopra) Chutney
+* Date (Khajur) Chutney
+* Green Chutney
+* Sauce
+
+### Raita
+* Pineapple Raita
+* Banana Raita
+* Cucumber Raita
+* Pomegranate (dadam) Boondi Raita
+* Fruit Raita
+* Veg Raita
+* Boondi Raita
+
+### Gujarati Dishes
+* Surti Undhiyu
+* Jain Undhiyu
+* Dana Undhiyu
+* Green Gujarat
+* Panchkutir Shaak
+* Batata Rasawala
+* Batata Suki Bhaji
+* Batata Tomato Shaak
+* Kand Matar
+* Turiya Matar
+* Turiya Patra
+* Turiya Patra Draksh
+* Flower Matar Draksh
+* Flower Matar Kaju Kishmish
+* Lilva
+* Lilva Matar
+* Ravaiya Papdi Tuver
+* Veg Harabhara
+* Bhinda Matar Patra
+* Bhinda Masala
+* Ringan Bharta
+* Mix Vegetable
+* Vegetable Kofta
+* Kathal (Jackfruit) Kofta
+* Kaju Karela
+* Khata Mitha Karela
+* Bharela Parvar
+* Ringan Batata Vatana Nu Shaak
+* Jodhpuri Gatta
+* Ravaiya Tuver
+
+### Biryani
+* Veg Biryani
+* Hyderabadi Biryani
+* Matka Biryani
+* Veg Dum Biryani
+* Jain Biryani
+* Tirangi Dryfruit Biryani
+* Paneer Biryani
+
+### Roti
+* Phulka Roti
+* Bepadi Roti
+* Bajri Roti
+* Juvar Roti
+* Makai Roti
+* Bati
+* Rumali Roti
+* Butter Rumali Roti
+
+### Starters / Bites
+* Hara Bhara Kabab
+* Cheese Ball
+* Cheese Cherry Pineapple
+* Mini Samosa
+* Spring Roll
+* Chidiya Samosa
+* Paneer Pakoda
+* Paneer Kurkure
+* Paneer Tikka
+
+### Papad
+* Dry Papad
+* Roasted Papad
+* Masala Papad
+* Dollar Papad
+* Khichiya Papad
+
+### Paratha
+* Methi Paratha
+* Pudina Paratha
+* Stuffed (stove) Paratha
+* Aloo Paratha
+* Cabbage Paratha
+* Matar Paratha
+* Muli Paratha
+* Veg Paratha
+
+### Tandoor
+* Tandoor Roti
+* Missi Roti
+* Butter Roti
+* Butter Naan
+* Tal Ajma Naan
+* Butter Rumali
+* Phulka Roti
+* Butter Phulka Roti
+* Lachha Roti
+
+### Dry Mava Sweets
+* Kaju Katli
+* Kaju Cassata
+* Kesar Kaju Katli
+* Kaju Samosa
+* Kaju Anar
+* Kaju Apple
+* Kaju Kesar
+* Kaju Badam
+* Pista Kalingar
+* Pista Samosa
+* Badam Katli
+* Badam Roll
+* Petha
+* Petha Roll
+* Kopra Pak
+* Kaju Badam Barfi
+* Anjeer Roll
+* Mava Barfi
+* Chocolate Barfi
+* Lapsi
+* Akhrot Sheera
+* Dudhi Halwa
+* Badam Halwa
+* Chikoo Halwa
+* Gajar Halwa
+* Ghee Jalebi
+* Pineapple Jalebi
+* Ghevar
+* Malpua
+* Soan Papdi
+
+### Bengali Sweets
+* Rasgulla
+* Kesar Rasgulla
+* Ras Malai
+* Ras Madhuri
+* Cham Cham
+* Malai Cham Cham
+* Rajbhog
+* Mohanthal
+* Gulab Jamun
+* Pista Gulab Jamun
+* Kala Gulab Jamun
+* Angoor Rabdi
+* Rabdi
+* Sitafal Rabdi
+* Kesar Rabdi
+* Basundi Rabdi
+* Lachha Rabdi
+* Matka Doodh
+* Mango Rabdi
+* Mango Cream Salad
+* Dryfruit Rabdi
+* Strawberry Rabdi
+
+### Pulao
+* Veg Pulao
+* Dryfruit Pulao
+* Green Pulao
+* Green Peas Pulao
+* Paneer Matar Pulao
+* Kashmiri Pulao
+
+### Dal
+* Dal Fry
+* Surti Dal
+* Moong Dal
+* Urad Dal
+* Chana Dal
+* Panchkutir Dal
+* Lachka Dal
+* Dal Makhani
+* Dal Dhokli
+
+### Punjabi Sabzi
+* Veg Korma
+* Amani Korma
+* Shahi Korma
+* Navratan Korma
+* Italian Korma
+* Mix Veg
+* Veg Hariyali
+* Veg Kolhapuri
+* Dum Aloo
+* Dum Aloo Punjabi
+* Matar Dum Aloo
+* Kashmiri Dum Aloo
+* Chhole
+* Chhole Paneer
+* Chhole Palak
+* Chhole Palak Paneer
+* Aloo Matar
+* Aloo Matar Paneer
+* Khoya Matar Paneer
+* Khoya Kaju
+* Paneer Kadhai
+* Paneer Tikka Masala
+* Paneer Makhmali
+* Paneer Bhurji
+* Paneer Korma
+* Paneer Makhanwala
+* Palak Baby Corn
+* Tawa Mehfil Sabzi
+* Paneer Kaleji
+* Paneer Patiala
+* Paneer Toofani
+* Paneer Khurchan
+* Paneer kadhi
+* Paneer Handi
+* Chitra Paneer Kabab
+
+### Kadhi
+* Plain Kadhi
+* Veg Kadhi
+* Marwadi Kadhi
+* Veg Punjabi Kadhi
+
+### Rice
+* Plain Rice
+* Jeera Rice
+* Matar Rice
+* Lemon Rice
+
+### Khichdi
+* Tuver Dal Khichdi
+* Moong Dal Khichdi
+* Masala Khichdi
+* Ram Khichdi
+
+### Puri
+* Plain Puri
+* Masala Puri
+* Palak Puri
+
+### Farsan (Snacks)
+* Paneer Pakoda
+* Moong Dal Bhajiya
+* Methi Gota
+* Dakor na Gota
+* Veg Ghughra
+* Tuver Ghughra
+* Punjabi Samosa
+* Hari Bhari Tikki
+* Veg Cutlet
+* Veg Patties
+* Dryfruit Patties
+* Kopra Patties
+* Moong Dal Kachori
+* Marcha Vada
+* Makai Marvel
+* Patra
+* Khaman
+* Dhokla
+* Tirangi Dhokla
+* Kela Methi Bhajiya
+* Batata Vada
+* Chinese Samosa
+* Spring Roll
+* Vati Dal Na Patra
+* Cheese Palak Puff (55)
+* Vasta Dola
+
+### Pani Puri
+* Pani Puri
+* Dahi Puri
+* Dahi Batata Puri
+* Chaat Puri
+* Bhel Puri
+* Makai Bhel
+* Pomegranate Bhel (dadam bhel)
+* Bombay Bhel
+
+### South Indian
+* Masala Dosa
+* Plain Dosa
+* Mysore Dosa
+* Spring Dosa
+* Chinese Dosa
+* Palak Dosa
+* Palak Paneer Dosa
+* Cheese Dosa
+* Rava Dosa
+* Jodhpuri Dosa
+* Cheese Uttapam
+* Tomato Uttapam
+* Idli Fry
+* Idli
+* Dahi Idli
+* Medu Vada
+* Dal Vada
+* Dosa Vada Chutney
+* Pangi Dosa Chutney
+
+### Soup
+* Manchow Soup
+* Hot and Sour Soup
+* Tomato Soup
+* Sweet Corn Soup
+* Minestrone Soup
+* Cream of Mushroom
+* Veg Coconut Milk
+* Almond Coriander Soup (badam korian soup)
+* Palak Soup
+* Green Peas Soup
+* Fresh Onion Soup
+* Lemon Coconut Soup
+
+### Chinese
+* American Chopsuey
+* Chinese Chopsuey
+* Veg Chow Chow
+* Veg Hong Kong
+* Veg Manchurian
+* Dry Manchurian
+* Veg Lollipop in Garlic Sauce
+* Hakka Noodles
+* Paneer Chilli Dry
+* Paneer Chilli Gravy
+* Seasonal Fried Rice
+* Veg Fried Rice
+* Veg Singapuri Fried Rice
+* Seasonal Hakka Noodles
+* Spring Roll
+
+### Italian Dishes
+* Red Pasta
+* Cheese Pasta
+* Bruschetta
+* Basil Pasta
+* Italian Pizza
+* Mexican Rice
+* Thai Curry
+* Thai Corn Ball
+* American Ball
+* Paneer Kurkure
+* Aloo Rosti
+* Mexican Tikki
+* Paneer Mongolian
+* Broccoli Almond Soup
+* Thai Corn Soup
+* Tomato Shorba
+* Italian Salad
+* Mexican Salad
+* Corn Cari hunter Soup
+* Veg Cari Soup
+* Mexican Bhel
+* Italian Bhel
+* Italian Roll
+* Veg Roasted
+
+### Sizzler
+* Chinese Sizzler
+* Paneer Sizzler
+* Veg Sizzler
+* Mexican Sizzler
+* Italian Sizzler
+
+### Chaat
+* Papdi Chaat
+* Delhi Chaat
+* Marwadi Chaat
+* Kurkure Chaat
+* Basket Chaat
+* Aloo Tikki Chaat
+* Corn Tikki Chaat
+* Gujiya Chaat
+* Biscuit Chaat
+* Palak Corn Chaat
+* Puri Chaat
+* Chana Chaat
+* Italian Chaat
+* Ragda Patties
+* Chaat Samosa
+* Idli Chaat
+* Paneer Tikka Dry
+* Paneer Taka Tak
+* Kahsta Kachori
+* Dahi Bhajiya
+* Dahi Vada
+* Dahi Bhalla
+* Sabudana Vada
+
+### Pizza
+* Veg Pizza
+* Mushroom Pizza
+* Italian Pizza
+* Jain Pizza
+* Pineapple Pizza
+* Veg Sizzler Pizza
+* Onion Capsicum Pizza 
